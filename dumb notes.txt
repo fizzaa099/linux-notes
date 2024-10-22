@@ -6,7 +6,7 @@ touch
 rm
 cp
 mv
-----------------------------------------------------------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________
 pwd- print working directory ; shows  the current working directory.
 
 mkdir	- make directory ; makes a directory.
@@ -21,7 +21,7 @@ cp- copy files
 
 mv - move (move the files and directories or rename them)
 
---------------------------------------------------------------------------------------------------------------------------
+_____________________________________________________________________________________________________________________________
 netstat - display network connections (view ip address)
 
 cat - contents of file
@@ -49,7 +49,64 @@ Is- information system, the command shows the files in the directory
 
 free - memory usgage
 directory is a folder that organzines  files
+___________________________________________________________________________________________________________________
+cd or ls to navigate to the directories
+nano to update files
+mv to move the file
+rm to remove
+cp to copy
+touch to manage files
+git init to intialize git repository
+git add
+push changes; git push 
+pull updates from a repository; git pull
+to search for files; find
+apt-get to install software
+_________________________________________________________________________________________________________________
+gitkraken notes
+clone a respitory; theres a clone option
+to create  a new repository click on the file and then new repository
+branch
+to create a branch click on the branch button
+double click on branch on the left panel 
 
+click pull if you want to merge the changes
+click push if you want to upload your commits to the repository
+
+click on commit to see the changes you made in the commit
+click on conflicted files to see options to solve the problem for gitkraken if you have any
+
+right click on a command and select "tag" 
+right click on the branch to delete it
+to rename a branch rightclick on it
+___________________________________________________________________________________________________________________
+
+bash scripting;
+a bash script is a plain text file that has a lot of commands written in the bash
+What are its uses in Linux? automation of tasks,system adminstration, file management, scheduled tasks, data processing, installation and configuration, enviornment set up, system monitoring, custom commands
+
+#!/bin/bash
+name="Fizza"
+echo "Hello, $name!"
+
+number=8
+if [$number -gt 5]; then echo "$number is greater than 5."; fi 
+
+for i in {1..3}; do echo "Count: $i"; done
+
+count =1
+while [ $count -le 3]; do echo "While Count; $count"; ((count"++)); done
+chmod +x my_script.sh 
+.my_script.sh
+
+____________________________________________________________________________________________________________________________________
+echo: prints text to the terminal
+read: takes user input and stores it in a variable
+touch;: creates an empty file
+chmod: changes the permission of file or directories
+grep: searches for a specific pattern in a file or output
+____________________________________________________________________________________________________________________________________
+nano check_create_dir.sh
 
 
 
