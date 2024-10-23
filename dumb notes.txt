@@ -6,7 +6,7 @@ touch
 rm
 cp
 mv
-_______________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
 pwd- print working directory ; shows  the current working directory.
 
 mkdir	- make directory ; makes a directory.
@@ -21,7 +21,7 @@ cp- copy files
 
 mv - move (move the files and directories or rename them)
 
-_____________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________
 netstat - display network connections (view ip address)
 
 cat - contents of file
@@ -49,7 +49,7 @@ Is- information system, the command shows the files in the directory
 
 free - memory usgage
 directory is a folder that organzines  files
-___________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
 cd or ls to navigate to the directories
 nano to update files
 mv to move the file
@@ -62,7 +62,7 @@ push changes; git push
 pull updates from a repository; git pull
 to search for files; find
 apt-get to install software
-_________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
 gitkraken notes
 clone a respitory; theres a clone option
 to create  a new repository click on the file and then new repository
@@ -79,7 +79,7 @@ click on conflicted files to see options to solve the problem for gitkraken if y
 right click on a command and select "tag" 
 right click on the branch to delete it
 to rename a branch rightclick on it
-___________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________
 
 bash scripting;
 a bash script is a plain text file that has a lot of commands written in the bash
@@ -99,14 +99,37 @@ while [ $count -le 3]; do echo "While Count; $count"; ((count"++)); done
 chmod +x my_script.sh 
 .my_script.sh
 
-____________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________
 echo: prints text to the terminal
 read: takes user input and stores it in a variable
 touch;: creates an empty file
 chmod: changes the permission of file or directories
 grep: searches for a specific pattern in a file or output
-____________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________
 nano check_create_dir.sh
+system monitoring: checks how well thecomputer or network is working
+Why is it important for maintaining a healthy Linux system? because it catches the problems early, boosts performfence, enchances security, etc
+__________________________________________________________________________________________________________________________________________________
+top: fdisplays the info about the system processes
+htop: provides a visual repersentation of processes and it becomes easy to manage them
+df: shows how much disk space usuage is available
+uptime: shows how long the systems been running
+________________________________________________________________________________________________________________________________________
+journalctl: displays msgs from the journalctl
+commands:
+journalctl (view all logs)
+journalctl -b (views log for current boot)
+journalctl -f (logs in real time)
+
+ /var/log
+ stores log files
+ tail /var/log/syslog (shows the last view lines of a log file)
+cat /var/log/auth.log (view the entire log file)
+tail -f /var/log/syslog (search for a speivifc term in a file realtime)
+grep "error" /var/log/syslog (look for a specfic term)
+ls /var/log (list all log files)
+________________________________________________________________________________________________________________________________________
+
 
 
 
